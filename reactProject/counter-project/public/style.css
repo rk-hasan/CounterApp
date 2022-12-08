@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.806);
+}
+.container{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    position: absolute;
+    top: 40%;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    font-size: 3rem;
+}
+
+.btn-1{
+    width: 50%;
+    background-color: darkgreen;
+    padding: .5rem 2rem;
+    color: beige;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-2{
+    width: 50%;
+    background-color: darkred;
+    padding: .5rem 2rem;
+    color: beige;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.reset-box{
+    text-align: center;
+    background-color: darkred;
+    padding: .5rem 2rem;
+    color: beige;
+    font-size: 1rem;
+}
+.reset-box button{
+    background-color: darkred;
+    border-color: darkred;
+    padding: .5rem;
+    color: beige;
+    font-size: 1rem;
+    cursor: pointer;
+}
